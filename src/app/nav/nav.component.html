@@ -1,0 +1,82 @@
+
+
+<div class="secondaryNav" >
+  <div class="firstNav">
+    <nav class="container ">
+        <div  class="d-flex" style="justify-content: space-between; align-items: center;">
+            <div>
+                <ul class="navBarList">
+                    <li class="navLink" routerLink="">home</li>
+                    <li class="navLink" routerLink="checkout"> checkout</li>
+                </ul>
+            </div>
+            <div>
+
+                <ul class="navBarList">
+                    <li class="navBarListRightLi">
+                        <span><i class="fa fa-user" style="margin-right: 3px;"></i></span>
+                        <span id="userNamePlaceholder">My Account</span>
+                        <!-- <a href="#" id="logoutLink" style="margin-left: 10px; color: white;">Logout</a> -->
+                        <a routerLink="login"  class="navLink" id="loginLink" style="margin-left: 10px; color: white;">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+  </div>
+  <nav class="container">
+      <div class="d-flex" >
+          <div class="col-md-3 navBarImg">
+             <h1 class="navBarHeading" routerLink="/">art gallary</h1>
+          </div>
+          <div class="col-md-6 searchBar">
+              <div style=" width: 100%; " class="header-search">
+                  <form >
+                      <!-- <select id="dropdownSearch" class="input-select">
+                          <option value="0">Name</option>
+                          <option value="1">Category</option>
+                      </select> -->
+
+
+                        <input style="display: inline-block;" id="searchValue" class="input" placeholder="Search here">
+                        <button
+                            style="display: inline-block;margin-left:-4px;"type="button" id="Search" class="search-btn">Search</button>
+
+                  </form>
+              </div>
+          </div>
+
+          <div style=" position: relative;" class="col-md-3 navIcons">
+              <div  class="d-flex NavIconsLeft">
+                  <div style="text-align: center;" class="NavIcons"><i style="margin-bottom: 5px;" class="fa fa-heart ">
+                      <span id="wishListNumberId" >0</span>
+                      </i>
+                      <div >Your Wishlist</div>
+                  </div>
+                  <div style="text-align: center;"  class="NavIcons">
+                      <div onclick="cartPopUp()">
+
+                        <i style="margin-bottom: 5px;color: white;" class="fa fa-cart-plus">
+
+                          <span id="cartNumberId" >0</span> </i>
+
+                      <div>Your cart</div>
+                  </div>
+                      <div id="popUp" >
+
+
+                      </div>
+                      </div>
+                  <!-- <div class="navMenuIcon menu-toggle" style="text-align: center;" class="NavIcons">
+                      <a id="menuClick" href="#">
+                          <i class="fa-solid fa-bars"></i>
+                          <div>Menu</div>
+                      </a>
+                  </div> -->
+              </div>
+          </div>
+</div>
+        </nav>
+
+</div>
