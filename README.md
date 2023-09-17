@@ -1,3 +1,6 @@
+## IMPORTANT NOTE
+ADMIN PANEL AND PRODUCT MODEL ARE NOT FINISHED IN FRONT END
+
 # AngularPhpProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
