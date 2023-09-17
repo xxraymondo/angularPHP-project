@@ -1,5 +1,6 @@
 ## IMPORTANT NOTE
 ADMIN PANEL AND PRODUCT MODEL ARE NOT FINISHED IN FRONT END
+------------------------------------------------------------
 
 # AngularPhpProject
 
